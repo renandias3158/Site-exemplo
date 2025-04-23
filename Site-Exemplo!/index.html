@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Transition & Transform</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CSS - Transition & Transform</h1>
+        <blockquote>Exemplo do Seminário</blockquote>
+    </header>
+
+    <main class="main">
+        <section class="stage">
+            <div class="obj" id="obj1"></div>
+        </section>
+        <section class="stage">
+            <div class="obj" id="obj2"></div>
+        </section>
+        <section class="stage">
+            <div class="obj" id="obj3"></div>
+        </section>
+        <section class="stage">
+            <div class="obj" id="obj4"></div>
+        </section>
+        <section class="stage">
+            <div class="obj" id="obj5"></div>
+        </section>
+        <section class="stage">
+            <div class="obj" id="obj6"></div>
+        </section>
+    </main>
+    <script>
+        const obj1 = document.getElementById('obj1');
+        
+            obj1.addEventListener('click', () => {
+                obj1.classList.toggle('ativo');
+            });
+            </script>
+  
+    
+</body>
+</html>
